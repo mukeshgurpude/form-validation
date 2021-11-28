@@ -1,0 +1,6 @@
+scripts/*.js
+scripts/*.map
+scripts/*.d.ts
+
+styles/*.css
+styles/*.css.map

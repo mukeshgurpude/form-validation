@@ -37,4 +37,5 @@ jobs:
           git add -f scripts/*.js
           git add -f styles/*.css
           git commit -m 'compiled'
-          git push origin master:gh-pages
+          git branch -m gh-pages
+          git push origin gh-pages

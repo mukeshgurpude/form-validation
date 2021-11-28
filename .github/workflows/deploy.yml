@@ -34,7 +34,7 @@ jobs:
 
       - name: Deploy
         run: |
-          git add scripts/*.js
-          git add styls/*.css
+          git add -f scripts/*.js
+          git add -f styls/*.css
           git commit -m 'compiled'
           git push origin master:gh-pages

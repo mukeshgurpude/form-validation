@@ -1,0 +1,1 @@
+﻿aside#messages{position:fixed;top:10vh;right:5vw;padding:.2em 1em;border-radius:5px;background-color:rgba(0,0,0,.7);color:#cdcdda;z-index:1000}aside#messages .success>p::before{content:"✔ ";color:lime}aside#messages .error>p::before{content:"⚠ ";color:#ffb300}aside#messages:empty{right:200vw;z-index:-1}/*# sourceMappingURL=message.css.map */

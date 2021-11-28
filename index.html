@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="./styles/message.css">
+  <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+  <h1 style="text-align: center">Form validation using javascript</h1>
+  <main>
+    <form action="./homepage" method="post">
+      <label>
+        Username*: <input type="text" name="username" required>
+        <span class="status"></span>
+      </label>
+      <label>
+        Email*: <input type="email" name="email" required>
+        <span class="status"></span>
+      </label>
+      <label>
+        Password*: <input type="password" name="password" required>
+        <span class="status"></span>
+      </label>
+      <label>
+        Confirm Password*: <input type="password" name="confirm_password" required>
+        <span class="status"></span>
+      </label>
+      <input type="submit" value="Create my account">
+    </form>
+  </main>
+  <script src="./scripts/message.js" type="module"></script>
+  <script src="./scripts/validator.js" type="module"></script>
+</body>
+</html>
